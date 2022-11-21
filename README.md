@@ -1,2 +1,2 @@
 # k8s-controller-go
-Sample Controller implementation using client-go 
+Custom Controller implementation using client-go 
