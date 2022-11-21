@@ -1,0 +1,7 @@
+apiVersion: samplecontroller.k8s.io/v1alpha1
+kind: VM
+metadata:
+  name: forbiddenname1
+  finalizers: ["donot-delete"]
+spec:
+  vmName: vmsample3 # any name
